@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="250mm" height="250mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 25000 25000"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#FF7800;stroke-width:100}
+    .str3 {stroke:#D9DADA;stroke-width:20}
+    .str2 {stroke:#C5C6C6;stroke-width:20}
+    .str1 {stroke:#9D9E9E;stroke-width:20}
+    .fil0 {fill:#FEFEFE}
+    .fil4 {fill:#D9DADA}
+    .fil3 {fill:#C5C6C6}
+    .fil2 {fill:#9D9E9E}
+    .fil1 {fill:#FF7800}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2179870928496">
+   <rect class="fil0 str0" x="4289" y="766" width="16653" height="23502"/>
+   <rect class="fil1" x="4289" y="766" width="16653" height="1145"/>
+   <rect class="fil1" x="4289" y="6512" width="16653" height="4833"/>
+   <rect class="fil1" x="4289" y="22264" width="16653" height="2004"/>
+   <rect class="fil2 str1" x="8825" y="2576" width="7559" height="1741"/>
+   <rect class="fil3 str2" x="7439" y="4752" width="10331" height="870"/>
+   <rect class="fil4 str3" x="5366" y="16526" width="4077" height="733"/>
+   <rect class="fil4 str3" x="5366" y="17625" width="4077" height="733"/>
+   <rect class="fil4 str3" x="5366" y="18725" width="4077" height="733"/>
+   <rect class="fil4 str3" x="6832" y="19825" width="2611" height="733"/>
+   <rect class="fil4 str3" x="10558" y="16526" width="4077" height="733"/>
+   <rect class="fil4 str3" x="10558" y="17625" width="4077" height="733"/>
+   <rect class="fil4 str3" x="10558" y="18725" width="4077" height="733"/>
+   <rect class="fil4 str3" x="12024" y="19825" width="2611" height="733"/>
+   <rect class="fil4 str3" x="15735" y="16526" width="4077" height="733"/>
+   <rect class="fil4 str3" x="15735" y="17625" width="4077" height="733"/>
+   <rect class="fil4 str3" x="15735" y="18725" width="4077" height="733"/>
+   <rect class="fil4 str3" x="17201" y="19825" width="2611" height="733"/>
+   <circle class="fil2 str1" cx="7382" cy="14052" r="1924"/>
+   <circle class="fil2 str1" cx="12605" cy="14098" r="1924"/>
+   <circle class="fil2 str1" cx="17782" cy="14052" r="1924"/>
+  </g>
+ </g>
+</svg>
