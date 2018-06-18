@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css"  type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"> </script>
+    <script src="js/jquery.js"></script>
     <title>youtale</title>
 </head>
 <body>
@@ -125,7 +126,37 @@
     <!-- Третий блок на фоне с кодом -->
     <div class="content-third">
         <div class="container-fluid">
-            
+            <div class="row justify-content-center">
+                <div class="col-xl-10">
+                    <div class="ct-1">
+                        <h1>Этапы работы</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-2">
+                    <div class="ct-block">
+                        <div class="block-txt" id="bt-1">Здесь будет описание этапа, которое будет открываться по нажатию на ссылку</div>
+                        <p class="block-but" id="bb-1">Подробнее</p>
+                        <p class="block-but" id="bb-2">Свернуть</p>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="ct-block">
+                        
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="ct-block">
+                        
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="ct-block">
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
