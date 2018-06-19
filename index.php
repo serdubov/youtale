@@ -136,24 +136,38 @@
             <div class="row justify-content-center">
                 <div class="col-xl-2">
                     <div class="ct-block">
+                        <div class="for-img"></div>
+                        <div class="block-name">Создание ТЗ</div>
                         <div class="block-txt" id="bt-1">Здесь будет описание этапа, которое будет открываться по нажатию на ссылку</div>
-                        <p class="block-but" id="bb-1">Подробнее</p>
-                        <p class="block-but" id="bb-2">Свернуть</p>
+                        <p class="block-but" id="bb-11">Подробнее</p>
+                        <p class="block-but" id="bb-12">Свернуть</p>
                     </div>
                 </div>
                 <div class="col-xl-2">
                     <div class="ct-block">
-                        
+                        <div class="for-img"></div>
+                        <div class="block-name">Дизайн, согласование</div>
+                        <div class="block-txt" id="bt-2">Здесь будет описание этапа, которое будет открываться по нажатию на ссылку</div>
+                        <p class="block-but" id="bb-21">Подробнее</p>
+                        <p class="block-but" id="bb-22">Свернуть</p>
                     </div>
                 </div>
                 <div class="col-xl-2">
                     <div class="ct-block">
-                        
+                        <div class="for-img"></div>
+                        <div class="block-name">Верстка, наполнение</div>
+                        <div class="block-txt" id="bt-3">Здесь будет описание этапа, которое будет открываться по нажатию на ссылку</div>
+                        <p class="block-but" id="bb-31">Подробнее</p>
+                        <p class="block-but" id="bb-32">Свернуть</p>
                     </div>
                 </div>
                 <div class="col-xl-2">
                     <div class="ct-block">
-                        
+                        <div class="for-img"></div>
+                        <div class="block-name">Сдача проекта</div>
+                        <div class="block-txt" id="bt-4">Здесь будет описание этапа, которое будет открываться по нажатию на ссылку</div>
+                        <p class="block-but" id="bb-41">Подробнее</p>
+                        <p class="block-but" id="bb-42">Свернуть</p>
                     </div>
                 </div>
             </div>
