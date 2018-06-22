@@ -22,11 +22,11 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="menu-img">
-                        <!-- <img src="img/logo_temp.jpg"> -->
+                        <img src="img/yt_logo.svg">
                     </div>
                     <div class="menu">
                         <nav class="menu-links">
-                            <div class="menu-item"><a href="https://www.avast.ru/index#pc" class="menu-links-item">One</a></div>
+                            <div class="menu-item"><a href="#" class="menu-links-item">One</a></div>
                             <div class="menu-item"><a href="#" class="menu-links-item">Two</a></div>
                             <div class="menu-item"><a href="#" class="menu-links-item">Free</a></div>
                             <div class="menu-item"><a href="#" class="menu-links-item">Four</a></div>

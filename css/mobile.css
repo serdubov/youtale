@@ -4,12 +4,3 @@
     }
 }
 
-@media only screen and (max-width:991px){
-    #block-out{
-        margin-bottom: 120px;
-    }
-    .ct-block{
-        margin-bottom: 0px;
-    }
-    
-}
