@@ -8,6 +8,17 @@
     src: url('/fonts/Robotobold.ttf');
 }
 
+/* .background-block{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -3;
+    background-image: url('/img/firstbg.jpg');
+    background-size: cover;
+    box-shadow:0 0 0 100vh rgba(0, 0, 0, 0.295) inset;
+    
+} */
+
 .header .container-fluid{
     width: 100%;
     height: 60px;
@@ -79,10 +90,11 @@
 
 .content-first{
     width: 100%;
-    height: 700px;
+    height: max-content;
     background-image: url('/img/firstbg.jpg');
     background-size: cover;
     box-shadow:0 0 0 700px rgba(0, 0, 0, 0.295) inset;
+    background-attachment: fixed;
 }
 
 .content-first .container-fluid{
@@ -93,13 +105,13 @@
 .in-content-first{
     max-width: max-content;
     width: 100%;
-    padding: 100px 20px 20px 20px;
+    padding: 10vmin 0px 0px 0px;
     margin: 0 auto;
 }
 
 .in-content-first h1{
     font-family: Robotobold;	
-    font-size: 54px;
+    font-size: 7.4vmin;
     /* font-size: 30px; for mobile */
     color: rgb(255, 255, 255);
     text-align: center;
@@ -108,14 +120,13 @@
 }
 
 .in-content-second{
-    padding: 100px 20px 20px 20px;
+    padding: 10vmin 0px 0px 0px;
     margin: 0 auto;
 }
 
 .in-content-second h2{
     font-family: Roboto;	
-    font-size: 28px;
-    /* font-size: 36px; for mobile */
+    font-size: 5.2vmin;
     color: #fff;
     text-align: center;
     letter-spacing: 0.2px;
@@ -125,13 +136,15 @@
 
 .in-content-button{
     margin: 0 auto;
-    padding-top: 70px;
-    max-width: max-content;
+    padding-top: 10vh;
+    /* max-width: max-content; */
+    max-width: 240px;
     width: 100%;
 }
 
 .start-button{
-    width: 240px;
+    
+    width: 100%;
     height: 90px;
     background-color: #ff7800;
     font-family: Robotobold;
@@ -151,13 +164,14 @@
 .in-content-third{
     max-width: max-content;
     width:100%;
-    padding-top: 30px;
+    padding-top: 5%;
     margin: 0 auto;
 }
 
 .in-content-third p{
     font-family: Roboto;
-    font-size: 24px;
+    /* font-size: 24px; */
+    font-size: 4vmin;
     text-align: center;
     letter-spacing: 0.2;
     color: white;
@@ -168,7 +182,7 @@
 
 .content-second{
     width: 100%;
-    height: 750px;
+    height: max-content;
     background-color: #f3f3f3; 
 }
 
@@ -180,13 +194,13 @@
 .cs-1{
     max-width: max-content;
     width: 100%;
-    padding: 50px 20px 20px 20px;
+    padding: 8vmin 0px 0px 0px;
     margin: 0 auto;
 }
 
 .cs-1 h1{
     font-family: Robotobold;	
-    font-size: 54px;
+    font-size: 7.4vmin;
     /* font-size: 30px; for mobile */
     color: rgb(80, 80, 80);
     text-align: center;
@@ -196,7 +210,8 @@
 .block-lending{
     width: 150px;
     height: 150px;
-    margin: 10px auto;
+    margin: 1.5vmin auto;
+    /* display: none; */
 }
 
 .shadow-lending{
@@ -234,23 +249,23 @@
 }
 
 .cs-3{
-    margin-top: 30px;
+    margin-top: 3%;
 }
 
 .cs-3 h2{
     font-family: Robotobold;	
-    font-size: 22px;
+    font-size: 4.5vmin;
     /* font-size: 36px; for mobile */
     color: rgb(100, 100, 100);
     /* text-align: center; */
 }
 
 .cs-list{
-    margin-top: 30px;
+    margin-top: 2%;
     max-width: 650px;
     width: 100%;
     font-family: Roboto;	
-    font-size: 18px;
+    font-size: 3vmin;
     color: rgb(100, 100, 100);
 }
 
@@ -259,9 +274,11 @@
 }
 
 .button-consultation{
-    margin: 0 auto;
-    margin-top: 30px;
-    width: 220px;
+    margin: 2% auto;
+    margin-bottom: 5%;
+    /* margin-top: 2%; */
+    max-width: 220px;
+    width: 100%;
     height: 50px;
     background-color: white;
     font-family: Robotobold;
@@ -278,13 +295,13 @@
 }
 
 /* Third BLOCK */
-
 .content-third{
     width: 100%;
-    height: 700px;
+    height: max-content;
     background-image: url('/img/secondbg.jpg');
     background-size: cover;
-    box-shadow:0 0 0 700px rgba(0, 0, 0, 0.295) inset;
+    box-shadow:0 0 0 100vh rgba(0, 0, 0, 0.295) inset;
+    background-attachment: fixed;
 }
 
 .content-third .container-fluid{
@@ -295,31 +312,38 @@
 .ct-1{
     max-width: max-content;
     width: 100%;
-    padding: 80px 20px 80px 20px;
+    padding: 5% 0px 5% 0px;
     margin: 0 auto;
 }
 
 .ct-1 h1{
     font-family: Robotobold;	
-    font-size: 54px;
+    font-size: 7.4vmin;
     /* font-size: 30px; for mobile */
     color: rgb(255, 255, 255);
     text-align: center;
-    letter-spacing: 0.2px;
     text-shadow: 0 1px 1px rgba(0,0,0,0.5);
 }
 
 .ct-block{
     width: 100%;
-    /* height: 250px; */
     height: max-content;
+    position: relative;
+    margin: 5px auto;
+    /* height: 250px; */
+    
     background-color: rgba(0, 0, 0, 0.404);
     border-radius: 15px;
-    border: solid 1px white;
+    border: solid 0.5px white;
+}
+
+.output{
+    width: 100%;
+    height: 120px;
 }
 
 .ct-block:hover{
-    border: solid 1px #ff7800;
+    border: solid 0.5px #ff7800;
 }
 
 .block-but{
@@ -346,6 +370,7 @@
     text-align: center;
     display: none;
     position: relative;
+    margin: 0 auto;
 }
 
 #bb-12, #bb-22, #bb-32, #bb-42{
@@ -353,15 +378,19 @@
 }
 
 .for-img{
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
     /* background-color: #fff; */
     margin: 10px auto;
 }
 
 .for-img img{
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
     /* background-color: #fff; */
 }
 

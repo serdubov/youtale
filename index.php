@@ -8,6 +8,7 @@
     <!-- <link rel="icon" href=​img/favicon.ico type="image/x-icon" /> -->
     <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" /> -->
     <link rel="stylesheet" href="css/style.css"  type="text/css">
+    <link rel="stylesheet" href="css/mobile.css" tupe="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"> </script>
     <script src="js/jquery.js"></script>
@@ -15,6 +16,7 @@
 </head>
 <body>
     <!-- Блок меню -->
+    <div class="background-block"></div>
     <div class="header">
         <div class="container-fluid">
             <div class="row">
@@ -80,7 +82,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xl-3">
+                <div class="col-xl-3 col-lg-3 col-md-0">
                     <div class="block-lending">
                         <img src='img/lending.svg' class="svg-img">
                         <div class="shadow-lending"><p class="txt-lending">Лендинг</p></div>
@@ -94,7 +96,7 @@
                         <div class="shadow-lending"><p class="txt-im">Интернет-магазин</p></div>
                     </div>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 col-lg-8 col-md-9">
                     <div class="cs-3">
                         <h2>Индивидуальный подход для Вашего бизнеса</h2>
                         <div class="cs-list">
@@ -124,6 +126,9 @@
         </div>
     </div>
     <!-- Третий блок на фоне с кодом -->
+    <div class="background-block2">
+
+    </div>
     <div class="content-third">
         <div class="container-fluid">
             <div class="row justify-content-center">
@@ -134,7 +139,7 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-xl-2">
+                <div class="col-xl-2 col-lg-3 col-md-5 col-sm-6">
                     <div class="ct-block">
                         <div class="for-img"><img src="img/ico_tz.svg"></div>
                         <div class="block-name">Создание ТЗ</div>
@@ -143,7 +148,7 @@
                         <p class="block-but" id="bb-12">Свернуть</p>
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 col-lg-3 col-md-5 col-sm-6">
                     <div class="ct-block">
                         <div class="for-img"><img src="img/design.svg"></div>
                         <div class="block-name">Дизайн</div>
@@ -152,7 +157,7 @@
                         <p class="block-but" id="bb-22">Свернуть</p>
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-xl-2 col-lg-3 col-md-5 col-sm-6">
                     <div class="ct-block">
                         <div class="for-img"><img src="img/program.svg"></div>
                         <div class="block-name">Программирование</div>
@@ -161,13 +166,20 @@
                         <p class="block-but" id="bb-32">Свернуть</p>
                     </div>
                 </div>
-                <div class="col-xl-2">
-                    <div class="ct-block">
+                <div class="col-xl-2 col-lg-3 col-md-5 col-sm-6">
+                    <div class="ct-block" >
                         <div class="for-img"><img src="img/datapick.svg"></div>
                         <div class="block-name">Сдача проекта</div>
                         <div class="block-txt" id="bt-4">Здесь будет описание этапа, которое будет открываться по нажатию на ссылку</div>
                         <p class="block-but" id="bb-41">Подробнее</p>
                         <p class="block-but" id="bb-42">Свернуть</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <div class="output">
+                        
                     </div>
                 </div>
             </div>
