@@ -12,6 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"> </script>
     <script src="js/jquery.js"></script>
+    <script src="js/feedback.js"></script>
     <title>youtale</title>
 </head>
 <body>
@@ -56,9 +57,11 @@
             <div class="row justify-content-center">
                 <div class="col-xl-4">
                     <div class="in-content-button">
-                        <div class="start-button">
-                            ОТПРАВИТЬ ЗАЯВКУ
-                        </div>
+                        <a href="#feedback">
+                            <div class="start-button">
+                                ОТПРАВИТЬ ЗАЯВКУ
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -185,7 +188,35 @@
             </div>
         </div>
     </div>
+    <div class="feedback">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <div class="cs-1">
+                        <a name="feedback"></a>
+                        <h1>Оставьте нам заявку!</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <form class="form" action="feedback.php" method="POST">
+                        <h2>Ваше имя</h2>
+                        <input type="text" name="name">
+                        <h2>Номер телефона</h2>
+                        <input type="tel" name="number">
+                        <h2>Email</h2>
+                        <input type="email" name="email">
+                        <h2>Комментарий</h2>
+                        <input type="text" name="comment">
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 </body>
 </html>
+
